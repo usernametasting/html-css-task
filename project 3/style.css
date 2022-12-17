@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background: url(bacgraund.jpg.jpeg);
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.navbar-contaner{
+height: 70px;
+width: 1200px;
+margin: auto;
+display: flex;
+}
+.logo{
+    width: 10%;
+    height: 70%;
+}
+.logo span{
+color: orangered; 
+font-size: 35px;
+font-weight: bold;
+position: relative;
+top: 15px;
+}
+.list-itmes{
+width:70%;
+}
+.list-itmes ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+}
+.list-itmes li{
+    list-style: none;
+    margin: auto;
+}
+.btn-container{ 
+align-items: center;
+justify-content: center;
+width: 30%; 
+display: flex;
+
+}
+.btn-container input{
+    margin: auto;
+    padding: 9px;
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid #ff7200;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius:8px;
+    co
+
+}.btn-container button{
+    padding: 10px;
+    width: 8rem;
+    background-color: #ff7200;
+    color: wheat;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius:8px;
+    cursor: pointer;
+}
+.home-container{
+   margin-top: 5rem;
+   display: flex;
+   justify-content: space-between;
+   width: 1200px;
+   color: white;
+    }
+     .heading-container span{
+        color: #ff7200;
+        font-size: 50px;
+    }    
+  .heading-container button{
+    background-color: #ff7200;
+    padding: 0.4rem;
+    margin-top: 10px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+  .heading-container button:hover{
+    background-color: white;
+    color: #ff7200;
+    font-weight: bold;
+    transition: 0.4s ease;
+  }
+  .heading-container p{
+    color: white;
+    line-height: 2rem;
+    letter-spacing: 1.2px;
+  }
+  .form-contaniner{
+    width: 250px;
+    height: 350px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.521);
+  }
+  .form-contaniner h2{
+    background-color: white;
+    color: #ff7200;
+    padding: 5px;
+    width: 85%;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  .form-contaniner input{
+    width: 250px;
+    padding: 8px;
+    background-color: transparent;
+   border-color: #ff7200;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   color:white;
+   border: none;
+   outline: none;
+  }
+  .form-contaniner button{
+    background-color: #ff7200;
+    color: black;
+    padding: 9px;
+    width: 85%;
+    text-align: center;
+    border-radius: 6px;
+border: none;
+  }
+  .f-log{
+    color: #ff7200;
+  }

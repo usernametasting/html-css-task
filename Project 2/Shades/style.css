@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.navbarcontainer{
+    
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+}
+.navbarcontainer div:nth-child(1){
+    margin-top: 0.4rem;
+}
+#logo{
+    position: relative;
+    top: 0.5rem;
+}
+.heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.navbarcontainer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+}
+.navbarcontainer li{
+    list-style-type: none;
+   
+    
+}
+.navbarcontainer button{
+    padding: 0.4rem;
+    border: 1px solid blue;
+    margin-top: 0.8rem;
+    background-color: transparent;
+    cursor: pointer;
+    width: 7rem;
+    font-weight: bold;
+    color: blue;
+}
+.homecontainer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.homecontainer div:nth-child(1) {
+    text-transform: uppercase;
+
+    
+}
+.homecontainer div:nth-child(2) {
+    max-width: 20rem;
+    margin-top: 2rem;
+    
+   margin-left: 33rem;
+    
+
+  
+    
+    
+
+}
+.textpara{
+    line-height: 2rem;
+    
+}
+.homecontainer input {
+    padding: 0.7rem;
+    width: 11rem;
+}
+.homecontainer button {
+    padding: 0.7rem;
+    width: 7rem;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+
+}
+.homecontainer div:nth-child(5) {
+    font-size: 14px;
+    color: silver;
+    margin-top: 0.1rem;
+}
+.footercontainer{
+  display: flex;
+  margin-top: 5rem;
+}
+.footerlogo{
+    display: flex;
+    margin: auto;
+}
+.footercontainer p{
+    max-width: 17rem;
+}
+
+
+
+
+
+
+
